@@ -1,1 +1,209 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+ html, body{
+     font-family: 'Roboto', sans-serif;
+}
 
+ button{
+     background-color: #ff0000;
+     padding: 5px 25px 5px 25px;
+     color: #fff;
+     border: none;
+     cursor: pointer;
+}
+ button:hover{
+     background-color: #007bff;
+}
+
+.overlay{
+     background-color: rgba(0, 0, 0, .45);
+     width: 100%;
+     overflow: hidden;
+     min-height: 800px;
+}
+
+
+.box{
+     color: #fff;
+     margin-top: 100px;
+     padding: 60px 40px;
+     background: rgba(79, 50, 68, .7);
+}
+ .box2{
+     color: #fff;
+     background: rgba(79, 50, 68, .7);
+     padding: 17px 40px;
+     margin-top: 35px;
+}
+
+/*---Intro----------
+------------------*/
+
+ .intro{
+     font-size: 20px;
+     color: #fff;
+     font-weight: 800;
+}
+ .full{
+     background-image: url('../img/bg.jpg');
+     background-position: center;
+     background-size: cover;
+     height: 100vh;
+}
+ .photo1{
+     margin-top: 50px;
+}
+ .about-me{
+     margin-top: 200px;
+}
+/*---Work Section---
+------------------*/
+ #work{
+     background-color: #dddfeb;
+     padding: 6% 0;
+}
+ .work-art{
+     background:#10c6fc;
+     color:#fff;
+     height: 270px;
+     width: 283px;
+     margin-bottom:20px;
+     margin-top: 50px;
+}
+ .design{
+     background-color: #10c6fc;
+}
+ .development{
+     background-color: #835aeb;
+}
+ .testing{
+     background-color: #002453;
+}
+ .launch{
+     background-color: #ff2b4a;
+}
+ .icon{
+     font-size: 40px;
+     color: #fff;
+     margin-left: 40%;
+}
+
+/*-Feature Section-----
+----------------------*/
+ .features-item{
+     padding-top: 84px;
+}
+ .features-item i{
+     font-size:40px;
+}
+ .features-item h6{
+     padding-top: 35px;
+     text-align: center;
+}
+ .features-item h6 a{
+     font-size: 18px;
+     text-transform: uppercase;
+     color:#fff;
+}
+ .portfolio-bg{
+     padding: 6% 0;
+}
+ img{
+     width: 100%;
+}
+ .project-snap-long{
+     width: 100%;
+     overflow: hidden;
+     height: 236px;
+     margin-top: 20px;
+}
+ p.text-center {
+     margin-top: 15px;
+     margin-bottom: 40px;
+}
+/*-Feature Section-----
+----------------------*/
+ .exp-bg{
+     background: url(../img/city.jpg) no-repeat center top fixed;
+     width: 100%;
+     overflow: hidden;
+     background-size: cover;
+}
+ 
+ .sub-title{
+     margin-top: 40px;
+}
+ 
+ .quote-bg{
+     background-color: #dddfeb;
+     overflow: hidden;
+}
+ .testimonial-content {
+     margin-top: 150px;
+}
+ i.fa.fa-quote-left{
+     font-size: 50px;
+     color: #6c757d9c;
+     margin-bottom: 25px;
+}
+ .profile-photo {
+     height: 650px;
+}
+
+/*-Contact Section-----
+----------------------*/
+ .contact-bg{
+     background-image: url(../img/con_bg.jpg);
+     background-position: center;
+     background-attachment: fixed;
+     background-size: cover;
+     width: 100%;
+}
+ .cotact-form{
+     width: 100%;
+     margin-top: 20px;
+     background-color: transparent;
+}
+ input.form-control{
+     background-color: transparent;
+     padding: 10px;
+     border-radius: 0;
+     border: 1px solid #6B6B6B;
+}
+ textarea.form-control{
+     background-color: transparent;
+     padding: 10px;
+     border-radius: 0;
+     border: 1px solid #6B6B6B;
+     height: 250px;
+}
+
+/*-Footer Section-----
+----------------------*/
+footer{
+     padding-top: 50px;
+     padding-bottom: 50px;
+     color: #fff;
+     background: #222222;
+}
+
+ .icon-footer{
+     color: #fff;
+     text-align: center;
+     margin-top: 5px;
+     padding: 4px;
+}
+ .icon-footer i:hover{
+     color: red;
+     cursor: pointer;
+     transition: .5s ease-in-out;
+}
+ .fab {
+     font-family: Font Awesome\ 5 Brands;
+     padding: 1%;
+}
+ .project-snap{
+     margin-top: 20px;
+}
