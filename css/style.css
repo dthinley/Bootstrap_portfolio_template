@@ -5,6 +5,22 @@
  html, body{
      font-family: 'Roboto', sans-serif;
 }
+h1,
+h2,
+h3 {
+    /*font-family: 'Lane', sans-serif;*/
+    font-weight: 300;
+    margin: 0;
+    color:#525252;
+}
+
+p {
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+p:last-child {
+    margin-bottom:0px;
+}
 
  button{
      background-color: #ff0000;
@@ -49,6 +65,7 @@
  .full{
      background-image: url('../img/bg.jpg');
      background-position: center;
+     background-attachment: fixed;
      background-size: cover;
      height: 100vh;
 }
